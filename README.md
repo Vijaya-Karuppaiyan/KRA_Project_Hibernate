@@ -52,51 +52,51 @@ Sample Screenshots
    Employee performance report for the given EmployeeID
      ![image](https://github.com/user-attachments/assets/d03c0673-bb62-47d5-a3f9-dc11a479ec73)
   All Employees performance report for the given year
-    Enter your choice: [0m7
-[1;34mEnter Year to view all employee reports: [0m2025
+    Enter your choice:  [0m7
+ [1;34mEnter Year to view all employee reports:  [0m2025
 Hibernate: select r1_0.reportId,r1_0.comments,r1_0.emp_id,r1_0.halfYear,r1_0.overallScore,r1_0.year from reports r1_0 where r1_0.year=?
 Hibernate: select e1_0.employeeId,d1_0.departmentId,d1_0.name,e1_0.designation,e1_0.email,e1_0.name from employees e1_0 left join departments d1_0 on d1_0.departmentId=e1_0.dept_id where e1_0.employeeId=?
 Hibernate: select e1_0.employeeId,d1_0.departmentId,d1_0.name,e1_0.designation,e1_0.email,e1_0.name from employees e1_0 left join departments d1_0 on d1_0.departmentId=e1_0.dept_id where e1_0.employeeId=?
 Hibernate: select e1_0.employeeId,d1_0.departmentId,d1_0.name,e1_0.designation,e1_0.email,e1_0.name from employees e1_0 left join departments d1_0 on d1_0.departmentId=e1_0.dept_id where e1_0.employeeId=?
 Hibernate: select e1_0.employeeId,d1_0.departmentId,d1_0.name,e1_0.designation,e1_0.email,e1_0.name from employees e1_0 left join departments d1_0 on d1_0.departmentId=e1_0.dept_id where e1_0.employeeId=?
 Hibernate: select e1_0.employeeId,d1_0.departmentId,d1_0.name,e1_0.designation,e1_0.email,e1_0.name from employees e1_0 left join departments d1_0 on d1_0.departmentId=e1_0.dept_id where e1_0.employeeId=?
-[1;36m
-===== Performance Reports for Year: 2025 =====[0m
-[1;33mEmployee ID: 1[0m
+ [1;36m
+===== Performance Reports for Year: 2025 ===== [0m
+ [1;33mEmployee ID: 1 [0m
 Half-Year: H1
-[1;32mFinal Score: 87.0[0m
-Performance Rating: [1;35mExcellent[0m
-[1;34m-------------------------------------[0m
-[1;33mEmployee ID: 1[0m
+ [1;32mFinal Score: 87.0 [0m
+Performance Rating:  [1;35mExcellent [0m
+ [1;34m------------------------------------- [0m
+ [1;33mEmployee ID: 1 [0m
 Half-Year: H2
-[1;32mFinal Score: 100.0[0m
-Performance Rating: [1;35mExcellent[0m
-[1;34m-------------------------------------[0m
-[1;33mEmployee ID: 2[0m
+ [1;32mFinal Score: 100.0 [0m
+Performance Rating:  [1;35mExcellent [0m
+ [1;34m------------------------------------- [0m
+ [1;33mEmployee ID: 2 [0m
 Half-Year: H1
-[1;32mFinal Score: 65.0[0m
-Performance Rating: [1;35mSatisfactory[0m
-[1;34m-------------------------------------[0m
-[1;33mEmployee ID: 2[0m
+ [1;32mFinal Score: 65.0 [0m
+Performance Rating:  [1;35mSatisfactory [0m
+ [1;34m------------------------------------- [0m
+ [1;33mEmployee ID: 2 [0m
 Half-Year: H2
-[1;32mFinal Score: 85.2[0m
-Performance Rating: [1;35mExcellent[0m
-[1;34m-------------------------------------[0m
-[1;33mEmployee ID: 4[0m
+ [1;32mFinal Score: 85.2 [0m
+Performance Rating:  [1;35mExcellent [0m
+ [1;34m------------------------------------- [0m
+ [1;33mEmployee ID: 4 [0m
 Half-Year: H1
-[1;32mFinal Score: 89.0[0m
-Performance Rating: [1;35mExcellent[0m
-[1;34m-------------------------------------[0m
-[1;33mEmployee ID: 3[0m
+ [1;32mFinal Score: 89.0 [0m
+Performance Rating:  [1;35mExcellent [0m
+ [1;34m------------------------------------- [0m
+ [1;33mEmployee ID: 3 [0m
 Half-Year: H1
-[1;32mFinal Score: 67.0[0m
-Performance Rating: [1;35mSatisfactory[0m
-[1;34m-------------------------------------[0m
-[1;33mEmployee ID: 5[0m
+ [1;32mFinal Score: 67.0 [0m
+Performance Rating:  [1;35mSatisfactory [0m
+ [1;34m------------------------------------- [0m
+ [1;33mEmployee ID: 5 [0m
 Half-Year: H1
-[1;32mFinal Score: 88.0[0m
-Performance Rating: [1;35mExcellent[0m
-[1;34m-------------------------------------
+ [1;32mFinal Score: 88.0 [0m
+Performance Rating:  [1;35mExcellent [0m
+ [1;34m-------------------------------------
 
 Future Enhancements
 	  - Web-based frontend using Spring Boot +  React
@@ -108,8 +108,7 @@ Conclusion
   - The EPES system helps track and evaluate employee productivity using structured KPIs.
   - Built with clean modular architecture using Java and Hibernate.
   - Can be scaled and extended to enterprise-level web-based HR tools.
-Thankyou. 
-
+Thankyou.
 
 
 
