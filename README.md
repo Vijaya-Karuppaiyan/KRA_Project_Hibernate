@@ -99,11 +99,11 @@ Performance Rating: [1;35mExcellent[0m
 [1;34m-------------------------------------
 
 Future Enhancements
-  - Web-based frontend using Spring Boot +  React
-  - Manager login and authentication
-  - Export reports to PDF
-  - Graphical dashboards
-  - Notification/email integration
+	  - Web-based frontend using Spring Boot +  React
+  	- Manager login and authentication
+ 	  - Export reports to PDF
+  	- Graphical dashboards
+ 		- Notification/email integration
 Conclusion
   - The EPES system helps track and evaluate employee productivity using structured KPIs.
   - Built with clean modular architecture using Java and Hibernate.
