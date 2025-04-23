@@ -1,6 +1,6 @@
-Employee Performance Evaluation System (EPES)
-A Java-Hibernate based system to evaluate employee performance using KPIs and generate reports
-  - Vijaya K, Senior Faculty, Deep Tech, Anudip Foundation
+Employee Performance Evaluation System (EPES).
+A Java-Hibernate based system to evaluate employee performance using KPIs and generate reports.
+  - Vijaya K, Senior Faculty, Deep Tech, Anudip Foundation.
 Project Scope
   1. Evaluate employee performance using measurable KPIs
   2. Allow managers to record scores for each KPI twice a year
