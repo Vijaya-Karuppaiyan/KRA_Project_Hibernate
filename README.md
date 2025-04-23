@@ -45,12 +45,16 @@
 ## Sample Screenshots:
    Menu in the project:
      ![image](https://github.com/user-attachments/assets/214a0097-fc97-4b06-979a-a07789d46f6c)
+     
    Viewed all KPIs:
      ![image](https://github.com/user-attachments/assets/7e47ec29-0434-46b4-a5e6-47ec90c32cfd)
+     
    Viewed all Employees:
      ![image](https://github.com/user-attachments/assets/e0886808-3b19-4f44-8b06-4c8c5c1104e6)
+     
    Employee performance report for the given EmployeeID:
      ![image](https://github.com/user-attachments/assets/d03c0673-bb62-47d5-a3f9-dc11a479ec73)
+     
   All Employees performance report for the given year:
     Enter your choice: 7
     Enter year : 2025
